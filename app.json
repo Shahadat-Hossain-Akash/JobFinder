@@ -1,10 +1,19 @@
 {
   "expo": {
+    "orientation": "portrait",
+    "icon": "./assets/icons/adaptIcon.png",
+    "backgroundColor": "#FDFFFD",
     "scheme": "acme",
     "web": {
       "bundler": "metro"
     },
     "name": "job-finder",
-    "slug": "job-finder"
+    "slug": "job-finder",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptIcon.png",
+        "backgroundColor": "#FDFFFD"
+      }
+    }
   }
 }
